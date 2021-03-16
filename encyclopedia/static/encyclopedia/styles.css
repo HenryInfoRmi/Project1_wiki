@@ -1,0 +1,74 @@
+body, html{
+    margin: 0;
+    background-color: white;
+    width: 100%;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 90vh;
+    width: 80%;
+}
+
+.color{
+    color: black;
+    text-decoration: black;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+#add {
+    display: flex;
+    flex-flow: column;
+    margin: 20px 0;
+    width: 80%;
+}
+textarea{
+    width: 100%;
+    height: 400px;
+}
+#add div{
+    margin: 20px 0;
+}
+#edit{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+#edit button{
+        background-color: rgb(224, 224, 224);
+        border: none;
+        border-radius: 8px;
+        padding: 4px 10px;
+        transition: 200ms;
+        outline: none;
+}
+#edit button:hover{
+    background-color: rgb(168, 168, 168)
+}

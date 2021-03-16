@@ -1,0 +1,25 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+
+{% if repeatd %}
+
+<div class="alert alert-danger" role="alert" style="width: 80%;">
+    Existing Page!!!!!
+</div>
+
+{% endif %}
+
+<form id="add" action="{% url url_page %}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <div>
+        <input type="submit">
+    </div>
+</form>
+
+{% endblock %}
